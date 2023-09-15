@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="action.php" id="frm" name="forum" method="get">
+        <fieldset>
+            <legend>Personal info</legend>
+            <div id="nam">
+                <label for="name">Name:</label>
+                <input type="text" name="na" placeholder="Enter your name"/>
+            </div>
+            <br/>
+            <div id="number">
+                <label for="num">Age:</label>
+                <input type="number" name="numb" id="num" min="15" max="80">
+            </div>
+            <br/>
+            <div id="phnumber">
+                <label for="numph">Phonenum:</label>
+                <input type="number" name="numbph" id="numph" minlenght="10" maxlength="10">
+            </div>
+            <br/>
+            <div id="mail">
+                <label for="email">Email:</label>
+                <input type="email" name="em" id="email">
+            </div>
+            <br/>
+            <div id="skills">
+                <label for="Skills">Skills:</label>
+                <input type="checkbox" name="skl" id="skill" value="html">HTML
+                <input type="checkbox" name="skl" id="skill" value="css">CSS
+            </div>
+            <br/>
+            <div id="gender">
+                <label for="gen">Gender:</label>
+                <input type="radio" name="gend" id="gen" value="male">Male
+                <input type="radio" name="gend" id="gen" value="female">Female
+            </div>
+            <br/>
+            <div>
+                <label for="clr">color</label>
+                <input type="color" name="color" id="clr">
+            </div>
+            <input type="submit" value="Apply">
+        </fieldset>
+    </form>
+    </body>
+</html>
